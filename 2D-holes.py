@@ -212,11 +212,11 @@ class Points:
 # Example of setting parameters and generating the output file
 x_minimum = 0
 y_minimum = 0
-x_maximum = 1
-y_maximum = 1
-avg_radius = 0.05
+x_maximum = 0.5
+y_maximum = 0.5
+avg_radius = 0.1
 std_radius = 0
-holes = 10
+holes = 1
 output_file = 'final2D.geo'
 
 rect = Rectangle(x_minimum, y_minimum, x_maximum, y_maximum, avg_radius, std_radius)
